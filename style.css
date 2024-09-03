@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Consolas, monaco, monospace;
+}
+body{
+    text-align: center;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+}
+
+.chosen{
+    display: flex;
+    gap: 60px;
+}
+#human-chosen, #com-chosen{
+    font-size: 3rem;
+}
+
+.scoreboard{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+#result{
+    margin-top: 10px;
+}
+
+.choice-buttons{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+.choice-buttons button{
+    font-size: 2rem;
+    background-color: black;
+    padding: 8px;
+    border-radius: 10%;
+    transition: background-color 0.3s, transform 0.3s;
+}
+.choice-buttons button:hover{
+    background-color: white;
+    font-size: 2.5rem;
+    border: none;
+}
+
+#restart {
+    font-size: 1rem;
+    background-color: white;
+    padding: 8px 12px;
+    border-radius: 10%;
+}
+#restart:hover{
+    background-color: black;
+    color: white;
+}
+
